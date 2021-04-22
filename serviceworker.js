@@ -1,8 +1,9 @@
-const cacheName = 'app-cache-v1';
+const cacheName = 'app-cache-v2';
 const resourcesToPrecache = [
     '/',
     '/index.html',
-    '/logo.png'
+    '/logo.png',
+    '/main.js'
 ];
 
 //set up Precache -- promise to install
